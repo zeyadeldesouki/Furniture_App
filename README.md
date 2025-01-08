@@ -30,7 +30,7 @@ The Furniture App is designed to:
 ## State Management with Cubit
 
 * **Cubit:** Utilizes Cubit to manage the application's state, such as:
-    * Product list state (loading, loaded, error)
+    * Product list state (loading, sucess, error)
     * Cart state (items in cart, total price)
 * **Streams:** Emits state changes from Cubits to rebuild UI components accordingly, ensuring efficient and reactive updates.
 * **Clean Separation of Concerns:** Cubits encapsulate state logic, making it easier to test and maintain.
